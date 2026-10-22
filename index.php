@@ -1,7 +1,7 @@
 <?php
-// php2shell-test: app running on vulnerable PHP 8.4.26
-// Affected by CVE-2026-109618 (OOM handling) and CVE-2026-109619 (use-after-free)
-// Fix: upgrade PHP to 8.4.27+
+// php2shell-test: app running on patched PHP 8.4.27
+// Was affected by CVE-2026-109618 (OOM handling) and CVE-2026-109619 (use-after-free)
+// Fixed upstream in PHP 8.4.27
 
 header('Content-Type: text/plain');
 
